@@ -1,0 +1,91 @@
+/* Pill fitur */
+.feature-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  font-size: 11px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Base button */
+.btn-base {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+/* Box statistik */
+.stat-box {
+  background-color: #f4f6fb;
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Avatar kota */
+.avatar-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 7px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+}
+
+/* Footer card */
+.card-footer-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9px;
+  font-weight: 500;
+  color: rgba(15, 23, 42, 0.6);
+  white-space: nowrap;
+}
+
+/* Resposif */
+@media (min-width: 640px) {
+  .feature-pill {
+    gap: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .btn-base {
+    padding: 16px 24px;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .stat-box {
+    padding: 16px;
+  }
+
+  .avatar-circle {
+    width: 28px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  .card-footer-item {
+    gap: 6px;
+    font-size: 12px;
+  }
+}
